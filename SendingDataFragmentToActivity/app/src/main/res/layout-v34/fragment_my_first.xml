@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/system_palette_key_color_tertiary_light"
+    android:orientation="vertical"
+    tools:context=".MyFirstFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_secondary_variant"
+        android:gravity="center"
+        android:text="My First fragment"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Send Data" />
+</LinearLayout>

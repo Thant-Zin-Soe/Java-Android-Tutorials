@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:background="@color/material_dynamic_neutral70"
+        android:gravity="center"
+        android:text="Please Choose the Color"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:gravity="center"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:id="@+id/redRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:width="200dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Red"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/yellowRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:width="200dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center|center_vertical"
+            android:text="Yellow"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/greenRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:width="200dp"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center|center_vertical"
+            android:text="Green"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/viewId"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_marginTop="30dp" />
+</LinearLayout>
