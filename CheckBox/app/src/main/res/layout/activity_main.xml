@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/material_dynamic_tertiary50"
+        android:text="What is your gender?"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <CheckBox
+        android:id="@+id/maleCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="150dp"
+        android:background="@color/material_dynamic_primary80"
+        android:text="Male"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/femaleCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="150dp"
+        android:background="@color/material_dynamic_primary80"
+        android:text="Female"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:height="60dp"
+        android:background="@color/material_dynamic_neutral70"
+        android:paddingTop="15dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/material_dynamic_primary80"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="?attr/colorPrimaryFixedDim"
+        android:gravity="center"
+        android:minHeight="80dp"
+        android:text="Toogle Button"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:maxWidth="300dp"
+        android:minHeight="300dp"
+        app:srcCompat="@drawable/cat" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/material_dynamic_tertiary50"
+        android:checked="false"
+        android:gravity="center"
+        android:minWidth="150dp"
+        android:minHeight="80dp"
+        android:text="ToggleButton"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textOff="Hide Image"
+        android:textOn="Show image"
+        android:textSize="20sp" />
+</LinearLayout>
